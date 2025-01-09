@@ -49,6 +49,7 @@ local Window = Rayfield:CreateWindow({
 local Label1 = Tab1:CreateLabel("Hi , Script is Keyless as it is in develeopment", 4483362458, Color3.fromRGB(255, 255, 255), false)
 local Label2 = Tab1:CreateLabel("Go to main -> Load the script for ur game", 4483362458, Color3.fromRGB(255, 255, 255), false)
 local Label3 = Tab1:CreateLabel("Last Updated / 07.01.2025", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Label3 = Tab1:CreateLabel("Darvin Eu am afcut toate scripturile acestea mda", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 local Button = Tab2:CreateButton({
     Name = "Piggy - RUN THE SCRIPT AFTER PIGGY IS SPAWNED AND WHEN INGAME",
@@ -75,3 +76,17 @@ local Button = Tab2:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Alive-Debug/BABFT/refs/heads/main/babft.lua"))()
    end
  })
+
+local button32 = Tab2:CreateButton({
+   Name = "Fisch",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Alive-Debug/Fisch/refs/heads/main/fisch.lua"))()
+   end
+})
+
+local button5 = Tab2:CreateButton({
+   Name = "BLOX FRUTTI",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Alive-Debug/BLOXFRUTTI/refs/heads/main/bf.lua"))()
+   end
+})
