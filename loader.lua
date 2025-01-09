@@ -88,10 +88,11 @@ local button5 = Tab2:CreateButton({
    Name = "BLOX FRUTTI - Discontinued until i make my own",
    Callback = function()
       Rayfield:Notify({
-        Title = "NOT RELEASED",
+        Title = "NOT RELEASED,have it anyways",
         Content = "WE WILL RELEASE IT SOON",
         Duration = 6.5,
         Image = 4483362458
       })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Alive-Debug/BLOXFRUTTI/refs/heads/main/bf.lua'))()
    end
 })
